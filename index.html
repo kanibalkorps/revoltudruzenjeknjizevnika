@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="keywords" content="revolt, udruzenje, knjizevnika, poezija, proza">
+    <meta name="description" content="Prijavite se i budite deo Udruzenja Knjizevnika Revolt, drustva pisaca i pesnika.">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/img/revolt-logo-favicon.ico">
+    <title>Удружење Књижевника Револт</title>
+</head>
+<body>
+    <header id="header">
+        <div id="sign-in">
+            <label for="sign-in">Нисте пријављени (<a href="prijavise.html">Prijavi se</a>)</label>
+        </div>
+       
+        <div class="logo">
+            <a href="oautoru.html"><img src="assets/img/revolt-logo.jpg" alt="revolt-logo"/></a>
+        </div>
+        <div id="header-name">
+            <h1>РЕВОЛТ</h1>
+            <h2>Удружење књижевника</h2>
+        </div>
+        <div id="search-header">
+            <form action="GET">
+                <label for="search-header" class="label-search">Претражи:<span class="material-icons-outlined search-icon">search</span><input type="search" id="search-header" name="search"/></label>
+            </form>
+        </div>
+        <div class="cleaner"></div>
+    </header>
+
+    <nav id="nav-main">
+        <ul id="nav-ul">
+            <li><a class="active-a" href="index.html">Почетна</a></li>
+            <li><a href="galerija.html">Галерија</a></li>
+            <li><a href="autori.html">Аутори</a></li>
+            <li><a href="prijavise.html">Пријави се</a></li>
+            <li><a href="kontakt.html">Контакт</a></li>
+            <li><a href="oautoru.html">О аутору</a></li>
+        </ul>
+    </nav>
+    <section id="content">
+        <div id="dropdown-autori" class="baner">
+            <p class="special-a">Пријављени аутори</p>
+            <ul id="dropdown-autori-content">
+               <!-- <li><a class="special-a">Autori</a></li>-->
+                <li><a href="#">Adam Adamović</a></li>
+                <li><a href="#">Marko Marković</a></li>
+                <li><a href="#">Nikolina Nikolić</a></li>
+                <li><a href="#">Lazar Lazarević</a></li>
+                <li><a href="#">Petra Petrović</a></li>
+                <li><a href="#">Strahinja Bakić</a></li>
+                <li><a href="#">David Aćimović</a></li>
+                <li><a href="#">Jelena Stošić</a></li>
+                <li><a href="#">Martin Birišić</a></li>
+                <li><a href="#">Marko Cvetković</a></li>
+                <li><a href="#">Miljana Miletić</a></li>
+                <li><a href="#">Marija Maksimović</a></li>
+                <li><a href="#">Jovan Manojlović</a></li>
+                <li><a href="#">Marija Jovičić</a></li>
+                <li><a href="#">Aleksandra Kojić</a></li>
+                <li><a href="#">Uroš Cvetkovski</a></li>
+                <li><a href="#">Nenad Bajić</a></li>
+                <li><a href="#">Miloš Grubić</a></li>
+                <li><a href="#">Đorđe Petrović</a></li>
+                <li><a href="#">Steva Danić</a></li>
+            </ul>
+        </div>
+        <div id="main-content">
+            <h3>О чему се ради?</h3>
+                <p>Друже или другарице, како да ти кажемо, али све је јасно, писање и читање није актуело, чак је и помало чудно да читаш у аутобусу. Кад купиш књигу бацио си паре, а кад пишеш, имаш свој свет. Је л' смо у праву? А шта мислиш, је л' би ваљало да се то промени, то јест да се врати у нормалу? И где је онда препрека да помогнеш друштву да се све то нормализује?</p>
+            <h3>Ко сте ви?</h3>
+                <p>А да, не замери, ми смо Удружење књижевника Револт. Нас седморо је почело причу на иницијативу једног члана. Сврха због које смо се скупили није ни страначка ни материјална, искључиво је културолошка.</p>
+            <h3>Шта нудите и шта ја имам од тога?</h3>
+                <p>Полако, много је то питања. Нудимо ти умрежавање са младима и оним мало мање младима који пишу, имају страст ка читању, ка рецитовању и слично, осим тога, када број људи буде завиднији, моћи ћемо да организујемо књижевне вечери, едукације, спонзорисање штампе књига, па и путовања. Ти од свега овога имаш могућност афирмације, ширење твог гласа, става и дела.</p>
+            <h3>Који су вам циљеви?</h3>
+                <p>Циљеви који су пред нама су опсежни и велики, али нимало недостижни. Само ако се скупимо, ујединимо и тежимо ка борби  са данашњим трендовима. Борба се неће огледати у супростављану неких нас и неких њих. Култура у Србији је пала без борбе, просто је понуђен тренд који је прихваћен и ланчано је довлачио сличне трендове, док на супротној страни није било ничег да се гласно супротстави квалитетом. Зато смо ми ту да се боримо тако што ћемо на сваки њихов кич да младима понудимо квалитет. Пуна је Србија младих који воле да читају и пишу, ал' о томе ћуте. Томе је дошао крај, имаћете свој медиј, подршку, мрежу, круг људи из исте уметности и могућност да оно што волите и ви, заволе и други! Е сад, друже или другарице, све ти ми објаснисмо не баш детаљно али биће прилике. Шта ми очекујемо од тебе? Дакле, ако си заинтересован-а да сарађујеш, допринесеш, учествујеш, то можеш тако што ћеш се јавити на било који начин који постоји. Можеш послати неки рад или са нама поделити неку идеју, а неко из тима ће попричати са тобом, одговорити на питања и тако даље. На теби је да шириш причу, то је основа, да популаризујеш и шириш мрежу а све остало сазнаћеш у ходу. О сваком из тима имаш биографију и слику, имаш наша дела, имаш нашу идеју и контакте. Паметном доста!</p>
+            
+            <h3>РЕВОЛТ</h3>
+            <div class="content-img-container"></div>
+            <div id="osnivaci-container">
+                <h3>Нека од наших дела</h3>
+                <div class="osnivaci-inner-container">
+                    <div class="osnivaci">
+                            <figure class="osnivaci-delo osnivaci-delo-left"><p>Draga moja</p>
+<p>
+Sada, draga moja,
+Ja moram poć'
+Jer ulice su puste
+I zove me noć
+
+Sada, draga moja,
+Ja moram poć'
+Ovoga puta odlazim daleko
+I ne tražim tvoju pomoć
+
+Sada, draga moja,
+Ja moram poć'
+Neka te zagrli prvi sledeći
+Jer ja više neću moć'
+                        
+Sada, draga moja,
+Ja moram poć'
+Al' ti nemoj za mnom
+Više doć'.</p>
+                            </figure>
+                            <figcaption class="osnivaci-delo-left">Martin Birišić</figcaption>
+                        <!-- </div> -->
+                    </div>
+                    <div class="osnivaci">
+                        <figure class="osnivaci-delo">
+<p>TIGAR</p><br/>
+<p>Naizgled obična velika životinja iz porodice mačaka... Grešiš prijatelju, ispod te kože se nalazi telo prepuno nagomilane energije, besa, bola, nepravde i sve to obavijeno ogromnim mišićima... Nikad ne spuštaj svoje šape na tigrov vrat ukoliko nisi spreman držati ih večno tu... Veruj mi druže, ako je i posle svih uvreda i loših stvari tu pored tebe nemoj misliti da je zaboravio, nije i neće nikada, samo čeka pravi trenutak, čeka da skloniš svoje odvratne šape sa njegovog vrata... Onda si prepušten samom sebi, kunem ti se prijatelju nećeš uspeti da se izboriš sa tim besom, bolom i mišićima... Uživaće dok te drži u svojim šapama i polako grize, dok deo po deo sa tebe skida... Zato se postaraj da ne skloniš šape sa njegovog vrata i nadaj se da neće dovoljno da trpi i čeka, što pre osetiš bol i patnju koju si mu naneo manje češ stradati... Upamti tigar ne zaboravlja, uvek se osveti pa makar i za deset godina ali vratiće ti... Vratiće ti za svaku lošu reč, uvredu, bol i patnju koju si mu naneo...</p><br/>
+                        </figure>
+                        <figcaption class="osnivaci-delo-left">Uglješa Nikodijević</figcaption>
+                    </div>
+                    <div class="osnivaci">
+                        <figure class="osnivaci-delo osnivaci-delo-left">
+<p>Tvoj pogled je večnost</p>
+
+<p>
+Tvoj pogled je večnost,
+prokleta zagonetnost,
+u očima tvojim je beskraj,
+bar neki odgovor mi daj!
+
+Ta zagonetnost mira mi ne da
+kad oko tvoje setno me gleda.
+Pogled tvoj nadu mi daje,
+predajem ti se, a razum se kaje.
+
+Razum kaje se, al' srce drugo kaže:
+"Predaj se tom pogledu, čak i da laže"
+Ako poslušam tvrdoglavo srce moje,
+Povređene biće emocije koje me kroje.
+
+Srce je put, slediću njega,
+vodilja moja, preče je od svega,
+predaću se iskušenju, izazovu tom
+jer sudbina moja u pogledu je tvom.
+
+Nekad me posmatra bezosećajno,
+a nekad nežno, milo i bajno,
+možda mi fale razum i mudrost,
+ali tvoj pogled moja je večnost.</p>
+                        </figure>
+                        <figcaption class="osnivaci-delo-left">Miljana Miletić</figcaption>
+                    </div>
+                    <div class="osnivaci">
+                        <figure class="osnivaci-delo osnivaci-delo-left">
+<p>Sanjam</p>
+<p>
+Pričaću vam, vi prosudite
+da kad u noći, tako mi rek'o,
+bez razloga se probudite,
+budnog vas sanja neko.
+
+Izvinjavam ti se stvarno,
+ja te sanjam, neću kriti,
+nije ništa zlo il' kvarno,
+što ćeš pospana ti biti.
+</p>
+                        </figure>
+                        <figcaption class="osnivaci-delo-left">Marko Cvetković</figcaption>
+                    </div>
+                </div>
+                <div class="osnivaci-inner-container">
+                    <div class="osnivaci">
+                        <figure class="osnivaci-delo">
+<p>Probudila sam se</p><br/>
+    
+<p>Probudila sam se jutros u pet i deset, u istočnom delu ove zemlje.
+Gde se televizor ne pali zbog loših vesti. 
+Gde vlada neka treća sila i gde stav može da se potkupi.
+Probudila sam se jutros u svetu gde se promena desi sa svakim gutljajem kafe.
+Gde teorije nemaju dokaze,
+Reč nameće cenu,
+Prijateljstvo se kači na udice, 
+A ljubav, evo, gubi još jedan svoj odred na južnom frontu. 
+Etikete su gde god se okreneš,
+Saučesnik u krađi redovno izdaje svog partnera, 
+Prisutnost znači odsutnost,
+Tuđ bezobrazluk izaziva alergiju, 
+A poruka putuje brže nego otkucaj srca. 
+Probudila sam se jutros i sedela na ivici kreveta,
+Oko mene je bila bela posteljina, mirisala je na tebe, a nemam ideju kako je iz snova uspela da te upije.
+Stopala su trnula od poluhladne sobe, a palčevi su bili u akciji spasavanja igrajući iks-oks po parketu.
+Probudila sam se jutros
+Imala sam sedamdeset godina, 
+Sedu kosu do polovine leđa, 
+sitne bore na izlazu iz luke zelenih očiju i jedno neizgovoreno kajanje u podnožju usana.
+Probudila sam se jutros , 
+I shvatila da nijedan priručnik,
+ljubavni skauti,
+ljudi sličnih maslinastih očiju,
+i digitalni transferi delova duše
+Nisu mogli da me namame na tvoju adresu sve ove godine,
+Pa je ono kajanje zauvek ostalo tu u podnožju kao mali ožiljak, 
+Da je uzalud svim tablicama, društvenim mrežama i znakovima kraj puta,
+Ostala jedna neposlata poruka u vazduhu da lebdi..."Da... i ti meni nedostaješ."
+Probudila sam se jutros,
+Sanjala sam da napadam prošlost
+Kukavičluk u meni još uvek je mirno spavao, 
+i ne sluteći da lek za njega možda ni za trideset godina ne pronađu.
+</p><br/>
+                        </figure>
+                        <figcaption class="osnivaci-delo-left">M. M.</figcaption>
+                    </div>
+                    <div class="osnivaci">
+                        <figure class="osnivaci-delo osnivaci-delo-left">
+<p>Put</p>
+<p>
+U izmaglici zore
+Budi se sistem
+Čekam te da dođeš
+Da ne bih morao sam da idem
+
+Krećemo se ka gradovima velikim
+Lokacijama nama nepoznatim
+Na pauzama palimo poslednje cigarete
+Tura zastane i čeka
+Jer nema nas
+
+Osećanja retko iskazuješ
+Tvoja usta ćute
+Ali oči ti govore 
+Ko Dunav su tamne i duboke
+
+Puno para potrošimo
+Međutim
+Ništa ne kupimo
+Sve je to u sećanje uloženo
+
+S tobom 
+Svoja pluća nikotinom uništim
+Nije mi krivo
+Samo sam želeo 
+Ponovo da te vidim
+
+Iz metropole
+Odlazim
+Osećaj tu ostavljam 
+Da ga reka odnese
+Uspomenu čuvam
+ I sa sobom je nosim
+
+Put
+U sećanju je ostao
+Mnogo mi je žao
+Što ti neke stvari
+Nisam rekao.</p>
+                        </figure>
+                        <figcaption class="osnivaci-delo-left">Jovan Manojlović</figcaption>
+                    </div>
+                    <div class="osnivaci">
+                        <figure class="osnivaci-delo  osnivaci-delo-left">
+<p>Ako</p>
+<p>
+Ako se jednom izgubim
+U tvojoj glavi
+Ne dozvoli da se probudim,
+Neka me fina emocija plavi
+Ako se jednom izgubim
+U tvojoj glavi
+
+Ako me pak ne bude
+Među ljudima koje voliš,
+Znaj da mi ponovo sude
+Ali ti nastavi, nastavi da se boriš
+Kada me ne bude
+Među ljudima koje voliš
+
+Ako mi jedne noći kažeš
+Da su sve ljubavi tužne,
+Znaću da ne lažeš,
+Nisu sve visine dostižne,
+Ali hrle ka njima ruke moje bezbožne
+Ako mi jedne noći kažeš
+Da ljubavi više nema,
+Neću te terati da dokažeš,
+Biću večno tvoja anatema.
+</p>
+                        </figure>
+                        <figcaption class="osnivaci-delo-left">Marija Jovičić</figcaption>
+                    </div>
+            </div>
+            </div>
+        </div>
+        <div class="baner news">
+            <p class="special-a">Новости из културе</p>
+            <article class="article-news article-news-first">
+                <a href="#" class="article-news-content">
+                    <figure class="img-container">
+                        <img class="article-news-img" src="assets/img/peroni-plakat2.jpg" alt="peroni plakat"/>
+                        <figcaption>Перони</figcaption>
+                    </figure>
+                    <p class="news-autor">Марко Цветковић</p>
+                    <p class="news-delo">Талентовани млади песник издао своју другу збирку песама "Перони" са само 20 година!</p>
+                    <p class="news-date">10.11.2021</p>
+                </a>
+            </article>
+            <article class="article-news">
+                <a href="#" class="article-news-content">
+                    <figure class="img-container">
+                        <img class="article-news-img" src="assets/img/marija-babic3.jpg" alt="Marija Babic"/>
+                        <figcaption>Корак у мој свет</figcaption>
+                    </figure>
+                    <p class="news-autor">Марија Бабић</p>
+                    <p class="news-delo">Талентована млада дама издала своју прву књигу кратке прозе "Корак у мој свет" са само 11 година!</p>
+                    <p class="news-date">1.12.2021</p>
+                </a>
+            </article>
+            <!-- <article class="article-news">
+                <a href="#" class="article-news-content">
+                    <figure class="img-container">
+                        <img class="article-news-img" src="assets/img/peroni-plakat2.jpg" alt="peroni plakat"/>
+                        <figcaption>Перони</figcaption>
+                    </figure>
+                    <p class="news-autor">Марко Цветковић</p>
+                    <p class="news-delo">Талентовани млади песник издао своју другу збирку песама "Перони" са само 20 година!</p>
+                </a>
+            </article>
+            <article class="article-news">
+                <a href="#" class="article-news-content">
+                    <figure class="img-container">
+                        <img class="article-news-img" src="assets/img/peroni-plakat2.jpg" alt="peroni plakat"/>
+                        <figcaption>Перони</figcaption>
+                    </figure>
+                    <p class="news-autor">Марко Цветковић</p>
+                    <p class="news-delo">Талентовани млади песник издао своју другу збирку песама "Перони" са само 20 година!</p>
+                </a>
+            </article> -->
+        </div>
+        <div class="cleaner"></div>
+        <!-- <h4>Martin Birišić</h4><p>
+Draga moja
+
+Sada, draga moja,
+Ja moram poć'
+Jer ulice su puste
+I zove me noć
+
+Sada, draga moja,
+Ja moram poć'
+Ovoga puta odlazim daleko
+I ne tražim tvoju pomoć
+
+Sada, draga moja,
+Ja moram poć'
+Neka te zagrli prvi sledeći
+Jer ja više neću moć'
+                        
+Sada, draga moja,
+Ja moram poć'
+Al' ti nemoj za mnom
+Više doć'.
+                    </p> -->
+    </section>
+    <footer>
+        <div id="footer-content-container">
+            <div class="footer-info footer-info-logo">
+                <div class="logo footer-logo">
+                    <a href="oautoru.html"><img src="assets/img/revolt-logo.jpg" alt="revolt-logo"/></a>
+                </div>
+            </div>
+            <div class="footer-info">
+                <h3>Буди део промене</h3><br/>
+                <p>Да поново вратимо књиге у шаке потребан си и ти. Придружи се нашој иницијативи и вратимо заједно српску књижевност на светски ниво где и припада као што је некад и било.</p><br/>
+                <p>Удружење књижевника Револт &copy 2021</p>
+            </div>
+            <div class="footer-info footer-links">
+                <h3>Корисни линкови:</h3>
+                <ul id="footer-ul">
+                    <li><a href="index.html">Почетна</a></li>
+                    <li><a href="galerija.html">Галерија</a></li>
+                    <li><a href="autori.html">Аутори</a></li>
+                    <li><a href="prijavise.html">Пријави се</a></li>
+                    <li><a href="kontakt.html">Контакт</a></li>
+                    <li><a href="oautoru.html">О аутору</a></li>
+                </ul>
+            </div>
+            <div class="footer-info footer-contact">
+                <h3>Контакт:</h3>
+                <p>Instagram: &nbsp&nbsp<a href="http://www.instagram.com" target="_blank"><i class="zmdi zmdi-instagram"></i></a></p>
+                <p>Facebook: &nbsp&nbsp<a href="http://www.facebook.com" target="_blank"><i class="zmdi zmdi-facebook"></i></a></p>
+                <p>Twitter: &nbsp&nbsp<a href="http://www.twitter.com" target="_blank"><i class="zmdi zmdi-twitter"></i></a></p>
+                <p>Telefon: &nbsp&nbsp<a href="tel: 065 12462337">065 12462377</a></p>
+                <p>Mail: &nbsp&nbsp<a href="mailto:ukrevolt@gmail.com">ukrevolt&#64gmail&#46com</a></p>
+            </div>
+            <div class="cleaner"></div>
+        </div>
+    </footer>
+</body>
+</html>
